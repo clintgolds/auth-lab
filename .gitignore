@@ -1,0 +1,4 @@
+# Dependencies
+node_modules/
+# Local Environment Secrets
+.env
