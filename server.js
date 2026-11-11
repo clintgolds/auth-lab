@@ -13,6 +13,7 @@ app.use(express.json());
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/students', studentRoutes);
+app.use('/api/upload', require('./routes/upload'));
 
 // Connect to MongoDB, then start the server
 const PORT = process.env.PORT || 5000;
